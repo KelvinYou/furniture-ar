@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
 
                     Anchor anchor = hitResult.createAnchor();
                     ModelRenderable.builder()
-                            .setSource(this, R.raw.gfg_gold_text_stand_2)
+                            .setSource(this, R.raw.table_woody)
                             .setIsFilamentGltf(true)
                             .build()
                             .thenAccept(modelRenderable -> addModel(anchor, modelRenderable))
